@@ -6,8 +6,8 @@
 ###### Supervised by professor: MARC-PHILLIPE Huget.
 
 ### Project 1: Trip Data
-######>>
-###### This an app written in python. It generates a csv file that contains Data about reviwers of a restaurant or an hotel.
+
+###### >This an app written in python. It generates a csv file that contains Data about reviwers of a restaurant or an hotel.
 ###### This Data is used to detect fake reviwers and bots.
 ###### To run the program you should to download in your python console (pip install ...) : tkinter - beautifulSoup - selenium - pandas.
 ###### Once you run it an interface would appear, now you should just paste the url of a restaurant or hotel from trip advisor.
