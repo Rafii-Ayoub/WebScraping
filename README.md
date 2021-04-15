@@ -2,8 +2,8 @@
 #### This files it's for academic purpose, to see more about each project you can navigate my github repositery.
 ######
 ######
-###### **Collaboration with:**  GAETAN Bouchard and ZAKARI Yaou.
-###### **Supervised by professor:** MARC-PHILLIPE Huget - CIMPAN Sorana.
+###### **Collaboration with:**   *GAETAN Bouchard and ZAKARI Yaou.*
+###### **Supervised by professor:**  *MARC-PHILLIPE Huget - CIMPAN Sorana.*
 ###
 * **Project 1: Trip Data**
 
