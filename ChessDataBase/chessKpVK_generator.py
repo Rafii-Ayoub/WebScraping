@@ -1,3 +1,5 @@
+""" It's better to use this program in Jupyter to visualize the board."""
+
 import chess 
 import random 
 import time
@@ -28,7 +30,7 @@ def who(player):
 def play_game(player1, player2, visual="svg", pause=0.1):
     """
     playerN1, player2: functions that takes board, return uci move
-    visual: "simple" | "svg" | None
+    visual:  "svg"
     """
     use_svg = (visual == "svg")
     board = chess.Board()
