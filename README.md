@@ -19,8 +19,8 @@
 ###### To run the program you should to download in your python console (pip install ...) : pandas - tweepy - json .
 ###### Once you run it you enter the user_name of an twitter account: EmmanuelMacron - RealDonaldTrump ...
 ###### There is so many issues :
-*              + Limited scraped data because of twitter restrictions. 
-*              +  Not functional for protected accounts for example: EmmanuelMacron - RealDonaldTrump ...
+*       Limited scraped data because of twitter restrictions. 
+*       Not functional for protected accounts for example: EmmanuelMacron - RealDonaldTrump ...
 
 ### Project 3 (infunctional): Scraping celebrity pictures and other informations from wikipedia and other websites.
 ######
