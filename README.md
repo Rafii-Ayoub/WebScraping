@@ -1,18 +1,18 @@
 # WebScraping:
-### This files it's for academic purpose, to see more about each project you can navigate my github repositery.
+#### This files it's for academic purpose, to see more about each project you can navigate my github repositery.
 ######
 ######
-###### Collaboration with:  GAETAN Bouchard and ZAKARI Yaou.
-###### Supervised by professor: MARC-PHILLIPE Huget.
+###### *Collaboration with:*  GAETAN Bouchard and ZAKARI Yaou.
+###### *Supervised by professor:* MARC-PHILLIPE Huget.
 ###
-* Project 1: Trip Data
+* *Project 1: Trip Data*
 
 ###### This an app written in python. It generates a csv file that contains Data about reviwers of a restaurant or an hotel.
 ###### This Data is used to detect fake reviwers and bots.
 ###### To run the program you should to download in your python console (pip install ...) : tkinter - beautifulSoup - selenium - pandas.
 ###### Once you run it an interface would appear, now you should just paste the url of a restaurant or hotel from trip advisor.
 
-* Project 2: Twitter advertising Bot.
+* *Project 2: Twitter advertising Bot.*
 
 ###### This an app written in python. It generates visualisation about followers activity of our client .
 ###### Using Python to request Twitter API we collect data about users principally (likes-tweets-retweets) to help predecting the right moment for advertising .
