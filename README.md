@@ -16,9 +16,9 @@
 ###### This an app written in python. It generates visualisation about followers activity of our client .
 ###### Using Python to request Twitter API we collect data about users principally (likes-tweets-retweets) to help predecting the right moment for advertising .
 ###### To run the program you should to download in your python console (pip install ...) : pandas - tweepy - json .
-###### Once you run it you enter the user_name of an twitter account: EmmanuelMacron - RealDonaldTrump ...
+###### Once you run it you enter the user_name of an twitter account: EmmanuelMacron - elonmusk ...
 ###### There is so many issues :
-######  *Limited scraped data because of twitter restrictions. *Not functional for protected accounts for example: EmmanuelMacron - RealDonaldTrump ...
+######  *Limited scraped data because of twitter restrictions. *Not functional for protected accounts .
 
 * **Project 3 (infunctional): Scraping celebrity pictures and other informations from wikipedia and other websites.**
 
