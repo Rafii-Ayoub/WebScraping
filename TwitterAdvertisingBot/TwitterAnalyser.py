@@ -12,7 +12,7 @@ class TweetAnalyzer():
 
  
 
-    def tweets_to_data_frame(self, tweets):
+    def tweets_to_data_frame1(self, tweets):
         df = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['tweets'])
 
         df['id'] = np.array([tweet.id for tweet in tweets])
@@ -24,7 +24,7 @@ class TweetAnalyzer():
         #df['tweets'] = np.array([api.u for tweet in tweets])
         return df
     
-    def tweets_to_data_frame1(self, tweets):
+    def tweets_to_data_frame2(self, tweets):
         df = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['tweets'])
         df['id'] = np.array([tweet.id for tweet in tweets])
         df['len'] = np.array([len(tweet.text) for tweet in tweets])
