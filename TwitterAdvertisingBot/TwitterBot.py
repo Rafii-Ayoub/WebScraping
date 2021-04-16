@@ -20,7 +20,7 @@ class twitterBot:
     def getUser_name(self):
        return  self.user_name
 
-    def plot(self):
+    def plot1(self):
       """ 
       plot that generates likes and retweets of followers as a function of time (days) 
       
@@ -31,8 +31,7 @@ class twitterBot:
       api = twitter_client.get_twitter_client_api()
       tweets = api.user_timeline(screen_name= self.getUser_name())
 
-      df = tweet_analyzer.tweets_to_data_frame(tweets)
-      #df['sentiment'] = np.array([tweet_analyzer.analyze_sentiment(tweet) for tweet in df['tweets']])
+      df = tweet_analyzer.tweets_to_data_frame1(tweets)
       time_likes = pd.Series(data=df['likes'].values, index=df['date'])
       
       time_likes.plot(figsize=(15, 5), label="likes", legend=True)
@@ -40,7 +39,7 @@ class twitterBot:
       time_retweets.plot(figsize=(15, 5), label="retweets", legend=True)
       plt.show()
     
-    def plot1(self):
+    def plot2(self):
       """ 
       plot that generates likes and retweets of followers as a function of time (hours) 
       
@@ -51,17 +50,10 @@ class twitterBot:
       api = twitter_client.get_twitter_client_api()
       tweets = api.user_timeline(screen_name= self.getUser_name())
 
-      df = tweet_analyzer.tweets_to_data_frame1(tweets)
-      #df['sentiment'] = np.array([tweet_analyzer.analyze_sentiment(tweet) for tweet in df['tweets']])
+      df = tweet_analyzer.tweets_to_data_frame2(tweets)
       time_likes = pd.Series(data=df['likes'].values, index=df['date'])
       time_likes.plot(figsize=(15, 5), label="likes", legend=True)
       time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
       time_retweets.plot(figsize=(15, 5), label="retweets", legend=True)
       plt.show()
-    
-    
-      
-     
-
-    
-
+   
