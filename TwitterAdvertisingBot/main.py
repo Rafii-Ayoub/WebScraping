@@ -16,6 +16,7 @@ if __name__ == '__main__':
         """
         client_name = str(input("Enter the customer's name :"))
         df=twitterBot(client_name)
+        df.plot1()
         df.plot2()
 
         
