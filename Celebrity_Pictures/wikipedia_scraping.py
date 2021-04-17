@@ -57,5 +57,5 @@ def generate_dataframe(names):
 	infos = pd.DataFrame(infos, columns=['Name', 'pic_url','Birthday','age'])
 	return infos
 
-
+L= ["Diego Maradona","elon musk" ,"Lionel Messi", "cristiano ronaldo" ,"Angela Merkel" , "taylor swift" ,"Natti Natasha", "Gad Elmaleh" , "Moncef Slaoui","warren buffett"]
 print(generate_dataframe(["Diego Maradona"]))
